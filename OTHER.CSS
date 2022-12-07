@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:century; 
+ }
+                /*home*/
+ .header{
+     min-height: 100vh;
+     height: 15%;
+     width: 1350px;
+     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/back2.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;     
+ }
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1% 4%;
+ }
+ nav a{
+     color: #fff;
+     font-size: x-large;
+     text-decoration: none;
+ }
+ nav a span{
+     color: darkgreen;
+ }
+ .nav-links{
+     flex: 1;
+     text-align: right;
+ }
+ .nav-links ul li{
+     display: inline-block;
+     margin: 5px 20px;
+ 
+ }
+ .nav-links ul li a{
+     font-size: 14px;
+     text-decoration: none;
+     text-align: left;
+ }
+ .nav-links ul li a::after{
+     content: '';
+     display: block;
+     margin: auto;
+     height: 3px;
+     width: 0%;
+     background-color: rgb(88, 22, 22);
+     transition: .6s;
+ }
+ .nav-links ul li a:hover:after{
+     width: 100%;
+ }
+ .textbox{
+     width: 90%;
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 8%;
+     transition: translate(-50%,-50%);
+     text-align: center;
+ }
+ .textbox h1{
+     font-size: 45px;
+ }
+ .textbox p{
+     font-size: 14px;
+     margin-top: 10px;
+ }
+ .textbox a{
+     font-size: 22px;
+     text-decoration: none;
+     color: white;
+     display: inline-block;
+     width: 20%;
+     align-items: 10%;
+     padding: 40px, 60px;
+     border-radius: 25px solid #fff;
+     margin-top: 60px;
+     margin-bottom: 60px;
+     background: transparent;
+     transition: .6s;
+     cursor: pointer;
+     border-radius: 25px;
+     border:2px solid #009688; 
+ }
+ .textbox a:hover{
+    border:2px solid #009688 ;
+    background-color: #009688;
+     border: 1px solid #fff;
+ }
+
+                 /*contact*/
+ #contact{
+     display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./images/rainforest.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     color: white;
+     padding: 45px;
+     align-items: center;
+     height: 15%;  
+ }
+ .form{
+     display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     align-items: center;
+     margin: 20px, 0px;
+ }
+ .input{
+     padding: 12px;
+     margin: 15px;
+     width: 300px;
+     border: none;
+     outline: none;
+ }
+ #msg{
+     width: 270PX;
+     padding: 10px;
+     margin: 15px;
+     border: none;
+     outline: none;
+ }
+ #send{
+     padding: 10px;
+     width: 100px;
+     margin: 40px;
+     border-radius: 25px ;
+     outline: none;  
+ }
+ #send:hover{
+     width: 50%;
+     align-items: 10%;
+     border-radius: 25px solid #fff;
+     background: transparent;
+     transition: .6s;
+     cursor: pointer;
+     border-radius: 25px;
+     border:2px solid #009688;
+     color: red;
+     background-color:  2px solid #009688;   
+ }
+                  
+                    /*about*/
+ #about{
+     display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     padding: 20px;
+     margin-bottom: 50px;
+     background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/aboutbackpic.jpg);
+     background-position: center;
+     background-size: cover;
+     position: relative;     
+     /*height: 900px;*/
+ 
+ }
+ #pic{
+     display: flex;
+     margin: 40px;
+ }
+ #pic h1{
+     color: #fff;
+ }
+ #pic img{
+     width: 100%;
+     height: 40%px;
+ }
+ #intro{
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     padding: 10px;
+     color: #fff;
+     margin-top: 60PX;
+ 
+ }
+ #intro h2{
+     font-size: 2rem;
+     margin-bottom: 20px;
+     color: white; 
+ }
